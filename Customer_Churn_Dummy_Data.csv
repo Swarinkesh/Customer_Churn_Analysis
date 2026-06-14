@@ -1,0 +1,101 @@
+CustomerID,CustomerName,JoinDate,LastPurchaseDate,TotalOrders,TotalRevenue,Segment,Region,Churned
+C001,Customer_1,2025-01-17,2025-12-31,42,2656.03,Consumer,South,Yes
+C002,Customer_2,2024-09-19,2026-02-28,12,2791.32,Consumer,East,Yes
+C003,Customer_3,2024-09-16,2026-01-15,31,5394.22,Corporate,West,Yes
+C004,Customer_4,2023-04-28,2026-01-06,11,2930.4,Small Business,South,Yes
+C005,Customer_5,2025-10-12,2025-12-17,24,4942.98,Consumer,East,Yes
+C006,Customer_6,2023-10-31,2026-05-07,37,7618.07,Small Business,North,No
+C007,Customer_7,2023-08-10,2026-04-20,30,3924.06,Consumer,South,No
+C008,Customer_8,2023-10-08,2026-01-01,19,1365.18,Corporate,West,Yes
+C009,Customer_9,2023-06-20,2026-01-26,27,6759.51,Small Business,South,Yes
+C010,Customer_10,2025-06-08,2026-02-26,49,8862.39,Corporate,South,Yes
+C011,Customer_11,2024-07-17,2026-02-15,21,3539.03,Corporate,West,Yes
+C012,Customer_12,2025-11-30,2026-04-01,33,2981.24,Corporate,South,No
+C013,Customer_13,2024-11-23,2026-03-14,24,1861.31,Small Business,East,No
+C014,Customer_14,2024-06-02,2025-12-20,32,3641.25,Small Business,South,Yes
+C015,Customer_15,2023-06-20,2026-01-23,49,12735.9,Small Business,West,Yes
+C016,Customer_16,2025-02-18,2026-02-03,23,6253.92,Consumer,West,Yes
+C017,Customer_17,2025-08-22,2025-12-18,30,8224.75,Corporate,South,Yes
+C018,Customer_18,2023-09-29,2026-03-18,8,1837.11,Small Business,South,No
+C019,Customer_19,2024-09-27,2026-04-19,46,13364.51,Small Business,South,No
+C020,Customer_20,2023-03-16,2026-01-10,15,1826.52,Corporate,West,Yes
+C021,Customer_21,2023-03-05,2026-02-16,25,2921.46,Small Business,South,Yes
+C022,Customer_22,2023-10-10,2026-04-27,20,742.31,Corporate,East,No
+C023,Customer_23,2024-04-02,2026-04-09,18,3802.79,Small Business,East,No
+C024,Customer_24,2025-03-09,2026-02-20,34,1858.56,Consumer,South,Yes
+C025,Customer_25,2024-02-16,2026-05-31,44,1515.58,Consumer,East,No
+C026,Customer_26,2023-06-09,2026-01-18,12,1263.51,Consumer,North,Yes
+C027,Customer_27,2023-06-22,2026-03-09,19,4284.95,Corporate,South,No
+C028,Customer_28,2024-03-31,2026-02-22,42,3570.28,Small Business,West,Yes
+C029,Customer_29,2024-02-24,2026-02-05,17,4729.32,Consumer,East,Yes
+C030,Customer_30,2023-11-17,2026-03-10,32,4581.98,Small Business,South,No
+C031,Customer_31,2025-05-01,2026-05-01,22,4275.8,Consumer,South,No
+C032,Customer_32,2025-03-24,2026-01-01,6,1670.05,Small Business,South,Yes
+C033,Customer_33,2025-08-02,2026-03-26,10,2257.9,Consumer,West,No
+C034,Customer_34,2024-05-02,2025-12-25,20,5524.67,Small Business,West,Yes
+C035,Customer_35,2024-07-09,2026-04-08,5,1048.16,Small Business,North,No
+C036,Customer_36,2024-06-19,2026-01-19,35,3910.16,Small Business,West,Yes
+C037,Customer_37,2024-06-12,2026-05-06,12,649.56,Consumer,East,No
+C038,Customer_38,2025-02-20,2025-12-19,21,3665.99,Corporate,West,Yes
+C039,Customer_39,2024-04-02,2026-05-20,33,1840.36,Consumer,North,No
+C040,Customer_40,2023-06-07,2025-12-20,40,859.25,Corporate,South,Yes
+C041,Customer_41,2024-04-03,2025-12-05,14,4073.11,Consumer,East,Yes
+C042,Customer_42,2025-03-08,2026-03-22,42,1165.66,Small Business,North,No
+C043,Customer_43,2025-04-29,2026-03-26,29,5320.21,Consumer,West,No
+C044,Customer_44,2023-03-20,2026-01-16,6,202.81,Corporate,South,Yes
+C045,Customer_45,2025-08-03,2026-05-07,31,3978.55,Small Business,North,No
+C046,Customer_46,2024-05-19,2026-03-15,23,2462.85,Small Business,North,No
+C047,Customer_47,2024-12-04,2026-01-29,22,640.53,Consumer,East,Yes
+C048,Customer_48,2025-05-01,2026-04-28,17,2193.0,Small Business,West,No
+C049,Customer_49,2025-10-27,2026-03-10,12,923.52,Consumer,East,No
+C050,Customer_50,2024-10-03,2026-03-28,48,13536.21,Consumer,East,No
+C051,Customer_51,2025-03-21,2026-05-16,10,2533.04,Corporate,North,No
+C052,Customer_52,2023-12-21,2026-03-31,16,1271.29,Consumer,North,No
+C053,Customer_53,2023-06-06,2026-04-13,6,1388.21,Consumer,North,No
+C054,Customer_54,2025-05-03,2026-03-15,6,879.69,Corporate,South,No
+C055,Customer_55,2023-03-14,2026-02-12,21,1556.28,Small Business,North,Yes
+C056,Customer_56,2024-07-19,2025-12-28,22,480.34,Consumer,East,Yes
+C057,Customer_57,2023-07-01,2026-04-11,49,6663.8,Corporate,East,No
+C058,Customer_58,2025-03-02,2026-05-24,48,3297.57,Small Business,North,No
+C059,Customer_59,2023-05-02,2026-04-03,34,4435.18,Small Business,East,No
+C060,Customer_60,2024-08-31,2026-04-18,18,402.09,Consumer,North,No
+C061,Customer_61,2024-09-22,2026-03-23,14,1229.28,Corporate,East,No
+C062,Customer_62,2023-04-06,2026-03-30,36,3854.34,Corporate,East,No
+C063,Customer_63,2023-06-18,2026-05-16,24,4215.93,Corporate,South,No
+C064,Customer_64,2024-05-08,2026-04-10,42,2276.67,Consumer,West,No
+C065,Customer_65,2024-08-30,2026-02-12,43,11106.11,Small Business,South,Yes
+C066,Customer_66,2025-06-05,2026-01-22,9,865.45,Corporate,East,Yes
+C067,Customer_67,2023-09-05,2026-01-20,15,861.39,Consumer,West,Yes
+C068,Customer_68,2024-06-13,2026-03-04,15,2671.0,Consumer,West,No
+C069,Customer_69,2024-10-13,2026-05-31,48,6911.41,Corporate,East,No
+C070,Customer_70,2023-12-27,2025-12-26,45,4018.65,Corporate,East,Yes
+C071,Customer_71,2023-05-13,2026-01-31,5,927.92,Small Business,South,Yes
+C072,Customer_72,2024-04-27,2026-04-24,46,12343.34,Small Business,East,No
+C073,Customer_73,2025-07-18,2026-01-15,30,5508.51,Small Business,West,Yes
+C074,Customer_74,2023-10-06,2026-02-14,35,5257.1,Consumer,South,Yes
+C075,Customer_75,2025-02-17,2026-01-01,38,4572.85,Small Business,South,Yes
+C076,Customer_76,2023-12-31,2026-02-18,27,6892.45,Consumer,North,Yes
+C077,Customer_77,2024-11-14,2026-01-18,41,1547.11,Corporate,South,Yes
+C078,Customer_78,2024-07-13,2026-05-05,1,252.26,Small Business,South,No
+C079,Customer_79,2023-04-27,2026-01-07,6,1480.15,Consumer,North,Yes
+C080,Customer_80,2025-11-05,2026-04-26,26,3174.5,Corporate,South,No
+C081,Customer_81,2024-06-25,2026-05-14,42,5812.66,Corporate,South,No
+C082,Customer_82,2023-04-18,2026-05-28,10,1010.2,Small Business,East,No
+C083,Customer_83,2023-10-08,2026-05-28,22,6082.05,Small Business,West,No
+C084,Customer_84,2023-04-30,2026-04-06,2,51.96,Small Business,West,No
+C085,Customer_85,2023-08-03,2026-01-07,39,5546.97,Small Business,North,Yes
+C086,Customer_86,2023-04-28,2026-05-09,15,3431.5,Corporate,South,No
+C087,Customer_87,2023-12-31,2026-01-24,38,4117.99,Small Business,North,Yes
+C088,Customer_88,2025-01-30,2026-03-14,4,784.31,Consumer,West,No
+C089,Customer_89,2023-03-10,2026-01-26,10,716.67,Corporate,South,Yes
+C090,Customer_90,2024-11-27,2026-04-15,5,670.41,Consumer,West,No
+C091,Customer_91,2024-03-22,2026-04-27,43,2883.75,Consumer,South,No
+C092,Customer_92,2023-11-27,2026-01-15,13,3157.81,Corporate,East,Yes
+C093,Customer_93,2024-09-02,2026-02-17,36,2683.87,Consumer,North,Yes
+C094,Customer_94,2025-02-25,2026-04-19,41,11857.02,Corporate,South,No
+C095,Customer_95,2024-10-19,2026-04-26,6,767.62,Corporate,North,No
+C096,Customer_96,2023-04-16,2026-02-08,6,1066.75,Corporate,North,Yes
+C097,Customer_97,2023-12-04,2026-05-27,18,2168.58,Consumer,East,No
+C098,Customer_98,2023-04-13,2025-12-11,24,2612.73,Corporate,West,Yes
+C099,Customer_99,2024-05-11,2026-05-24,29,6785.16,Small Business,West,No
+C100,Customer_100,2024-10-11,2026-03-20,23,4202.42,Corporate,West,No

@@ -3,7 +3,7 @@
 Customer Churn Analysis project using SQL and Power BI to analyse churn trends, revenue loss, customer segments, and retention opportunities.
 
 # Project Overview
-This project analyses customer churn patterns and their impact on business revenue. The goal is to identify high-risk customer segments, regions with high churn, and the financial impact of customer attrition.
+This project analyses customer churn patterns and their impact on business revenue. The goal is to identify high-risk customer segments, high-churn regions, and the financial impact of customer attrition.
 
 ## Business Questions
 What is the overall churn rate?

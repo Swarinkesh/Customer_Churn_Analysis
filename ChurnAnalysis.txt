@@ -1,0 +1,64 @@
+Overall Churn Rate %
+SELECT
+    SUM(TotalRevenue) AS RevenueLost
+FROM Customer_Churn
+WHERE Churned = 'Yes';
+
+
+Total Revenue Lost
+SELECT
+    SUM(TotalRevenue) AS RevenueLost
+FROM Customer_Churn
+WHERE Churned = 'Yes';
+
+Segment-wise Churn Rate
+
+SELECT
+    Segment,
+    COUNT(*) AS TotalCustomers,
+    SUM(CASE WHEN Churned = 'Yes' THEN 1 ELSE 0 END) AS ChurnedCustomers,
+    ROUND(
+        SUM(CASE WHEN Churned = 'Yes' THEN 1 ELSE 0 END) * 100.0
+        / COUNT(*),
+        2
+    ) AS ChurnRate
+FROM Customer_Churn
+GROUP BY Segment
+ORDER BY ChurnRate DESC;
+
+
+Region-wise Churn Rate
+
+SELECT
+    Region,
+    COUNT(*) AS TotalCustomers,
+    SUM(CASE WHEN Churned = 'Yes' THEN 1 ELSE 0 END) AS ChurnedCustomers,
+    ROUND(
+        SUM(CASE WHEN Churned = 'Yes' THEN 1 ELSE 0 END) * 100.0
+        / COUNT(*),
+        2
+    ) AS ChurnRate
+FROM Customer_Churn
+GROUP BY Region
+ORDER BY ChurnRate DESC;
+
+Top 5 Revenue Customers Who Churned
+
+WITH ChurnedCustomers AS
+(
+    SELECT
+        Customer_ID,
+        CustomerName,
+        Segment,
+        Region,
+        TotalRevenue,
+        ROW_NUMBER() OVER(
+            ORDER BY TotalRevenue DESC
+        ) AS rn
+    FROM Customer_Churn
+    WHERE Churned = 'Yes'
+)
+
+SELECT *
+FROM ChurnedCustomers
+WHERE rn <= 5;

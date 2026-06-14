@@ -1,3 +1,4 @@
+[Customer_Churn_Dummy_Data.csv](https://github.com/user-attachments/files/28927567/Customer_Churn_Dummy_Data.csv)
 # Customer_Churn_Analysis
 Customer Churn Analysis project using SQL and Power BI to analyse churn trends, revenue loss, customer segments, and retention opportunities.
 
